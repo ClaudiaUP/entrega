@@ -2,12 +2,14 @@ import {Router} from "express"
 import { __dirname } from "../utils.js"
 import ProductManager from "../manager/productManager.js"
 
-const manager= newProductManager (__dirname + "files/products.json")
+const manager= new ProductManager (__dirname + "files/products.json")
 
 const router = Router()
 
 router.get("/products",async(req,res)=>{
-    res.send("Ya funciona el router")
+   const listOfProducts = await manager.getProducts()
+   res.json({message: "success", listOfProducts})
+   
     const {limit}=req.query
     const products= await manager.getProducts()
     if(limit){

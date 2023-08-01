@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Aspiradora",
+    "description": "1000W",
+    "price": 75000,
+    "status": true,
+    "thumbnail": "imagen14",
+    "code": "zx28",
+    "stock": 35,
+    "category": true,
+    "id": 2
+  },
+  {
+    "title": "Cocina",
+    "description": "4 hornallas y timer",
+    "price": 150000,
+    "status": true,
+    "thumbnail": "imagen81",
+    "code": "zx3",
+    "stock": 50,
+    "category": true,
+    "id": 3
+  },
+  {
+    "title": "Heladera",
+    "description": "Freezer not frost",
+    "price": 200000,
+    "status": true,
+    "thumbnail": "imagen24",
+    "code": "zx23",
+    "stock": 45,
+    "category": true,
+    "id": 3
+  },
+  {
+    "title": "Lavarropas",
+    "description": "Horizontal",
+    "price": 180000,
+    "status": true,
+    "thumbnail": "imagen102",
+    "code": "zx58",
+    "stock": 24,
+    "category": true,
+    "id": 4
+  }
+]
